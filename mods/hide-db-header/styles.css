@@ -1,0 +1,14 @@
+/*
+ * focus mode
+ * (c) 2020 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (c) 2020 gabrielmmelo <gabrielmelocomp@gmail.com> (https://gabrielmmelo.github.io/)
+ * under the MIT license
+ */
+
+.notion-selectable .notion-collection_view-block[style*='width: 100%;'] > div:not(.notion-scroller) {
+    height: 0px!important;
+}
+
+.notion-selectable .notion-collection_view-block[style*='width: 100%;']:hover > div:not(.notion-scroller) {
+    height: 42px!important;
+}
